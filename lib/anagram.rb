@@ -7,7 +7,7 @@ class Anagram
   
   def match(anagram_array)
     anagram_array.collect do |anagram|
-      anagram == word
+      
       
   end
 end
