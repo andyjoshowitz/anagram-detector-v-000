@@ -5,8 +5,10 @@ class Anagram
     @word = word
   end
   
-  def match(@@anagrams)
-    
+  def match(anagram_array)
+    anagram_array.collect do |anagram|
+      anagram == word
+      
   end
 end
 
